@@ -105,3 +105,9 @@
     filter: grayscale(1) blur(5px);
     transition: 2s;
 }
+
+.ex-8-img:hover {
+    transition: 2s;
+    border-radius: 30px;
+    filter: grayscale(2) sepia(1);
+}
