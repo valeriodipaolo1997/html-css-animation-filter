@@ -118,3 +118,36 @@
     filter: grayscale(2) sepia(1);
     transform: scale(.5);
 }
+
+.ex-10-icon {
+    animation-name: rotate;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+.ex-11-icon:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+
+@keyframes rotate {
+    
+    0% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(300deg);
+    }
+}
